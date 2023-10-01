@@ -1,0 +1,29 @@
+<%- include('header'); -%>
+<main>
+
+<div class="justify-content">
+<div><h3 class="text-center">Admin Login</h3></div>
+<div class="text-center">
+
+<% locals.invalid%>
+
+</div>
+<form class="text-center form-floating mb-3
+" method="post" action="/adminlogin">
+<div class="form-group">
+<lable>Email</lable><br>
+<input type="email" name="email" ><br>
+</div>
+<div class="form-group">
+<label for="current-password">Password</label><br>
+<input id="current-password" type="Password" name="password" autocomplete="current-password" required><br>
+ 
+ </div>
+ <div class="form-group">
+<button type="submit" class="btn btn-primary">Sign In</button>
+ </div>
+</form>
+</div>
+</main>
+
+<%- include('footer'); -%>

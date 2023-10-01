@@ -1,0 +1,21 @@
+main {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+
+footer {
+  bottom: 0;
+}
+
+.form-group button {
+  margin-top: 3vh;
+}
+
+label {
+  font-weight: bolder;
+}
+
+.input {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
